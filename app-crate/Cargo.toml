@@ -1,0 +1,9 @@
+[package]
+name = "app-crate"
+version = "0.1.0"
+authors = ["Sawered <sawered@gmail.com>"]
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]

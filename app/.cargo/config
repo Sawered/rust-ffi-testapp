@@ -1,0 +1,6 @@
+[build]
+
+rustflags = [
+ "-C",
+ "link-args=-Wl,-export-dynamic,-rpath,../../shared_ffi_test/clib-shared/cmake-build-debug/",
+]
