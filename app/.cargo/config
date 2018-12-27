@@ -2,7 +2,7 @@
 
 rustflags = [
  "-C",
- "link-args=-Wl,-export-dynamic,-rpath,../../shared_ffi_test/clib-shared/cmake-build-debug/",
+ "link-args=-Wl,-export-dynamic,-rpath,../../shared_ffi_test/clib-shared/cmake-build-debug/,-rpath,./target/debug/deps",
 # "-C",
 # "link-args=-Wl,--whole-archive",
 ]
