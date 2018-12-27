@@ -10,3 +10,8 @@ mod tests {
 pub extern "C" fn crate_func (){
     println!("crate_func::exec");
 }
+
+
+pub fn just_function(){
+    println!("just function call");
+}
