@@ -1,6 +1,6 @@
 
 #[no_mangle]
-pub extern "C" fn submodule_func(){
+extern "C" fn submodule_func(){
     println!("submodule_func:exec");
 }
 extern "C"{

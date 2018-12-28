@@ -7,7 +7,7 @@ mod tests {
 }
 
 #[no_mangle]
-pub extern "C" fn crate_func (){
+extern "C" fn crate_func (){
     println!("crate_func::exec");
 }
 
