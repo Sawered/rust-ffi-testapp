@@ -2,6 +2,8 @@
 name = "app-crate"
 version = "0.1.0"
 authors = ["Sawered <sawered@gmail.com>"]
+links = 'clib_shared'
+build = 'build.rs'
 
 [lib]
 crate-type = ["cdylib","rlib"]

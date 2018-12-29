@@ -2,7 +2,6 @@
 name = "app"
 version = "0.1.0"
 authors = ["Sawered <sawered@gmail.com>"]
-link = 'clib_shared'
 build = 'build.rs'
 
 [dependencies]
