@@ -9,6 +9,7 @@ pub extern "C" fn root_func(){
 
 fn main() {
     println!("Hello, world!");
+    app_crate::crate_sub_module::inner();
     app_crate::just_function();
     unsafe {
         sub_module::run_shared_func();

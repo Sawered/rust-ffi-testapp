@@ -6,10 +6,8 @@ mod tests {
     }
 }
 
-#[no_mangle]
-extern "C" fn crate_func (){
-    println!("crate_func::exec");
-}
+pub mod crate_sub_module;
+//pub use crate_sub_module::*;
 
 
 pub fn just_function(){
